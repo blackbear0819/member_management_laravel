@@ -31,17 +31,17 @@
                 <hr>
                 <ul class="nav nav-pills flex-column mb-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-dark">MEMBERS</a>
+                        <a href="/members" class="nav-link text-dark">MEMBERS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark">MEMBERS</a>
+                        <a href="#" class="nav-link text-dark">MEMBERS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark">MEMBERS</a>
+                        <a href="#" class="nav-link text-dark">MEMBERS</a>
                     </li>
                 </ul>
             </div>
-            <div class="ms-4 mt-4">
+            <div class="ms-4 mt-4 w-100">
                 @yield('content')
             </div>
         </div>
